@@ -1,4 +1,4 @@
-source ~/antigen.zsh
+source /usr/share/zsh-antigen/antigen.zsh
 antigen init ~/.antigenrc
 
 alias python3="python3.8"
