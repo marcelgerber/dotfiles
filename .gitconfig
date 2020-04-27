@@ -7,5 +7,13 @@
 	name = Marcel Gerber
 [alias]
 	delete-merged = !git branch --merged | grep -v \"\\*\" | grep -v master | grep -v dev | xargs -n 1 git branch -d
+	fetchall = fetch --all -p
 [core]
-	autocrlf = true
+	autocrlf = input
+	filemode = false
+	editor = vim
+	pager = delta --dark --plus-color='#365420' --minus-color='#340001' --theme='Monokai Extended' --24-bit-color always
+
+[interactive]
+	diffFilter = delta --color-only
+

@@ -5,3 +5,6 @@
 * ImageMagick (`sudo apt install imagemagick`)
 * FFmpeg (`sudo apt install ffmpeg`)
 * Inkscape (`sudo apt install inkscape`)
+* [delta](https://github.com/dandavison/delta)
+* [thefuck](https://github.com/nvbn/thefuck)
+
