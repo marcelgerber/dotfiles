@@ -1,7 +1,7 @@
 sudo apt update && sudo apt upgrade -y
 sudo apt update
 
-sudo apt install -y bat build-essential python-is-python3 python3-pip neovim zsh
+sudo apt install -y bat build-essential fd-find python-is-python3 python3-pip neovim zsh
 
 sudo mkdir /usr/share/zsh-antigen
 sudo curl -o /usr/share/zsh-antigen/antigen.zsh -sL git.io/antigen

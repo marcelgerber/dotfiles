@@ -12,7 +12,7 @@
 	autocrlf = input
 	filemode = false
 	editor = vim
-	pager = delta --dark --plus-color='#365420' --minus-color='#340001' --theme='Monokai Extended' --24-bit-color always
+	pager = delta --dark --plus-color="#365420" --minus-color="#340001" --24-bit-color always
 
 [interactive]
 	diffFilter = delta --color-only
