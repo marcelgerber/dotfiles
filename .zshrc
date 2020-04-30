@@ -1,6 +1,7 @@
 source /usr/share/zsh-antigen/antigen.zsh
 antigen init ~/.antigenrc
 
+alias bat="batcat"
 alias python3="python3.8"
 alias vim="nvim" 
 
