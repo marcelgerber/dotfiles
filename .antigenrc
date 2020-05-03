@@ -13,8 +13,11 @@ antigen bundle lukechilds/zsh-nvm
 antigen bundle rupa/z
 
 # Load the prompt
-antigen bundle mafredri/zsh-async
-antigen bundle sindresorhus/pure
+# antigen bundle mafredri/zsh-async
+# antigen bundle sindresorhus/pure
+
+# Load the theme
+antigen theme romkatv/powerlevel10k
 
 # Tell Antigen that you're done.
 antigen apply
