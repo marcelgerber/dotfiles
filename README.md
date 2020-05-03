@@ -4,7 +4,7 @@ This is my personal terminal configuration, which I'm very happy with.
 I'm currently developing on Ubuntu 20.04 LTS from within the Windows Subsystem for Linux (wsl), which works like a charm. I also really like the [new Windows Terminal](https://github.com/microsoft/terminal/).
 
 Highlights of my setup include:
-* zsh with [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) and the agnoster theme, and all of that is managed by [antigen](https://github.com/zsh-users/antigen)
+* zsh with [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh) and the [pure](https://github.com/sindresorhus/pure) prompt, and all of that is managed by [antigen](https://github.com/zsh-users/antigen)
 * [`z`](https://github.com/rupa/z) for quickly navigating around the filesystem.
   Imagine typing `z dotfiles` and your terminal just _knows_ where you want to go!
 * [`bat`](https://github.com/sharkdp/bat) as a `cat` replacement with pager, syntax highlighting, line numbers and more awesomeness!
