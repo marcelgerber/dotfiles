@@ -8,12 +8,12 @@
 [alias]
 	delete-merged = !git branch --merged | grep  -v '\\*\\|master\\|dev' | xargs -r -n 1 git branch -d
 	fetchall = fetch --all -p
+	recent = "!r(){ git for-each-ref --sort=-committerdate refs/heads --format='%(HEAD)%(color:yellow)%(refname:short)|%(color:bold green)%(committerdate:relative)|%(color:blue)%(subject)|%(color:magenta)%(authorname)%(color:reset)' --color=always | column -ts'|'; }; r" # https://stackoverflow.com/a/30076212/10670163
 [core]
 	autocrlf = input
-	filemode = false
+	fileMode = false
 	editor = vim
 	pager = delta --dark --plus-color="#365420" --minus-color="#340001" --24-bit-color always
 
 [interactive]
 	diffFilter = delta --color-only
-
