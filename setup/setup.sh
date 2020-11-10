@@ -14,7 +14,7 @@ sudo apt update
 # ripgrep: fast fuzzy search
 # tmex: terminal multiplexer
 # zsh: simply the best
-sudo apt install -y bat build-essential fd-find graphviz librsvg2-bin neovim net-tools pandoc python-is-python3 python3-pip ripgrep tmex zsh
+sudo apt install -y bat build-essential fd-find graphviz librsvg2-bin neovim net-tools pandoc python-is-python3 python3-pip ripgrep tmux zsh
 
 sudo mkdir /usr/share/zsh-antigen
 sudo curl -o /usr/share/zsh-antigen/antigen.zsh -sL git.io/antigen
