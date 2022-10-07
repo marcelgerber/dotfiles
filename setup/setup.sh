@@ -1,5 +1,6 @@
 sudo apt update && sudo apt upgrade -y
-sudo apt update
+sudo add-apt-repository ppa:git-core/ppa
+sudo apt update && sudo apt upgrade -y
 
 # bat: provides a nicer cat experience, with syntax highlighting and stuff
 # build-essential: always nice to have
