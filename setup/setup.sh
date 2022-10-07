@@ -1,5 +1,6 @@
 sudo apt update && sudo apt upgrade -y
 sudo add-apt-repository ppa:git-core/ppa
+sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update && sudo apt upgrade -y
 
 # bat: provides a nicer cat experience, with syntax highlighting and stuff
@@ -15,7 +16,7 @@ sudo apt update && sudo apt upgrade -y
 # ripgrep: fast fuzzy search
 # tmex: terminal multiplexer
 # zsh: simply the best
-sudo apt install -y bat build-essential fd-find graphviz librsvg2-bin neovim net-tools pandoc python-is-python3 python3-pip ripgrep tmux zsh
+sudo apt install -y bat build-essential fd-find graphviz librsvg2-bin neovim net-tools pandoc python-is-python3 python3-pip python3.10 ripgrep tmux zsh
 
 sudo mkdir /usr/share/zsh-antigen
 sudo curl -o /usr/share/zsh-antigen/antigen.zsh -sL git.io/antigen
